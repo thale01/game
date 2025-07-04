@@ -1,0 +1,114 @@
+.content{
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+    background-color: lightblue;
+   
+   
+}
+.msg{
+       margin: 40px 0px 0px 420px;
+       font-size: 20px;
+
+}
+
+.game-name{
+    width: 350px;
+    height: 50px;
+    border: 3px double brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 320px;
+    color:darkblue;
+
+}
+.hands{
+    display: flex;
+    justify-content: center;
+   
+
+}
+#stone:hover{
+  
+    cursor:pointer; 
+    background-color: black;
+    
+}
+#paper:hover{
+
+    cursor:pointer;
+    background-color: black;
+}
+#scissors:hover{
+  
+    cursor:pointer;
+    background-color: black;
+}
+#stone{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(225, 127, 143);
+    border-radius: 100px;
+    background-image: url("stone.png");
+    background-size: cover;
+    margin:10px;
+
+}
+#paper{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(225, 127, 143);
+    border-radius: 100px;
+    background-image: url("paper.png");
+    background-size: cover;
+    margin:10px;
+}
+#scissors{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(225, 127, 143);
+    border-radius: 100px;
+    background-image: url("scissors.png");
+    background-size: cover;
+    margin:10px;
+}
+.score-board{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 390px;
+    font-size: 25px;
+}
+#you{
+    margin: 20px;
+}
+#user-score{
+    display: flex;
+    justify-content: center;
+
+}
+#computer-score{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin: 50px 0px 0px 425px;
+    
+}
+.msg-box{
+   width: 150px;
+   height: 30px;
+   background-color:rgb(19, 54, 134);
+   color: beige;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   border-radius: 6px;
+  
+   
+}
+
+
